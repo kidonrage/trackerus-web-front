@@ -32,7 +32,6 @@
 
 ### src/domain/entities/
 - **Роль:** доменные сущности и их инварианты.
-- **Что лежит:** `Habit.ts`, `Checkin.ts`, `Goal.ts`.
 
 ### src/domain/errors/
 - **Роль:** доменные ошибки.
@@ -66,7 +65,6 @@
 
 ### src/infrastructure/repos/
 - **Роль:** реализации репозиториев (портов) поверх DB/HTTP.
-- **Что лежит:** `HabitRepoDexie.ts`, `HabitRepoHttp.ts`, `mappers.ts` (DTO/Row ↔ Domain).
 
 ---
 
